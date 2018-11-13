@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1"
+    />
+    <title>ATLAS</title>
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: fixed;
+        overflow: hidden;
+        font-family: "Raleway";
+      }
+
+      .page {
+        background: linear-gradient(90deg, #2f374e, #583f52);
+        height: 100%;
+      }
+
+      .content-ct {
+        height: calc(100% - 120px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .project-link-ct {
+        margin-left: 60px;
+        width: 180px;
+      }
+
+      .project-link {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+        margin: 10px 0 0;
+      }
+
+      .footer {
+        opacity: 0.2;
+        background: black;
+        height: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="content-ct">
+        <img
+          src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2023.26%2022.31%22%20height%3D%2250%22%20width%3D%2250%22%3E%3Cg%3E%3Cpath%20d%3D%22M10.39%2C0%2C0%2C22.31H20.41ZM4.73%2C19.44l1-2.22%2C1.32-3L10.33%2C7.1l3.11%2C7.14%2C1.29%2C3%2C1%2C2.22Z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M19.55%2C2.45a1.29%2C1.29%2C0%2C1%2C0%2C1.29%2C1.29%2C1.29%2C1.29%2C0%2C0%2C0-1.29-1.29m0%2C5a3.71%2C3.71%2C0%2C1%2C1%2C3.71-3.71%2C3.71%2C3.71%2C0%2C0%2C1-3.71%2C3.71%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+        />
+        <div class="project-link-ct">
+          <a class="project-link" href="https://patient-level.atlas-build.com">
+            Patient level deployment
+          </a>
+          <a class="project-link" href="https://malaria.atlas-build.com">
+            Malaria deployment
+          </a>
+          <a class="project-link" href="https://lyme.atlas-build.com">
+            Lyme deployment
+          </a>
+          <a class="project-link" href="https://cold-spots.atlas-build.com">
+            Cold spots prototype
+          </a>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
